@@ -14,6 +14,7 @@
 		91E337A528831F3900FC48C5 /* WooshyWindowSwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E337A428831F3900FC48C5 /* WooshyWindowSwitcherTests.swift */; };
 		91E337AF28831F3900FC48C5 /* WooshyWindowSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E337AE28831F3900FC48C5 /* WooshyWindowSwitcherUITests.swift */; };
 		91E337B128831F3900FC48C5 /* WooshyWindowSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E337B028831F3900FC48C5 /* WooshyWindowSwitcherUITestsLaunchTests.swift */; };
+		91E337BE288325AC00FC48C5 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E337BD288325AC00FC48C5 /* AppCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		91E337AA28831F3900FC48C5 /* WooshyWindowSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooshyWindowSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E337AE28831F3900FC48C5 /* WooshyWindowSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooshyWindowSwitcherUITests.swift; sourceTree = "<group>"; };
 		91E337B028831F3900FC48C5 /* WooshyWindowSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooshyWindowSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91E337BD288325AC00FC48C5 /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				91E3379228831F3700FC48C5 /* WooshyWindowSwitcherApp.swift */,
+				91E337BD288325AC00FC48C5 /* AppCore.swift */,
 				91E3379428831F3700FC48C5 /* ContentView.swift */,
 				91E3379628831F3900FC48C5 /* Assets.xcassets */,
 				91E3379B28831F3900FC48C5 /* WooshyWindowSwitcher.entitlements */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E337BE288325AC00FC48C5 /* AppCore.swift in Sources */,
 				91E3379528831F3700FC48C5 /* ContentView.swift in Sources */,
 				91E3379328831F3700FC48C5 /* WooshyWindowSwitcherApp.swift in Sources */,
 			);
